@@ -1,0 +1,5 @@
+{
+  "forecast_error_threshold": 0.6118298172950745,
+  "source": "p95 benign validation forecast error",
+  "stage_probability_threshold": 0.6
+}

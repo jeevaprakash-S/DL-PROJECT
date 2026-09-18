@@ -1,0 +1,31 @@
+{
+  "model_training_stages": [
+    "Benign",
+    "Reconnaissance",
+    "Delivery",
+    "Exploitation",
+    "C2",
+    "ActionsOnObjectives"
+  ],
+  "primary_evaluation_stages": [
+    "Benign",
+    "Reconnaissance",
+    "C2",
+    "ActionsOnObjectives"
+  ],
+  "minimum_reliable_test_support": 100,
+  "test_support": {
+    "Benign": 685356,
+    "Reconnaissance": 3376,
+    "Delivery": 3,
+    "Exploitation": 11,
+    "C2": 45037,
+    "ActionsOnObjectives": 52981
+  },
+  "experimental_stages_insufficient_test_support": {
+    "Delivery": 3,
+    "Exploitation": 11
+  },
+  "primary_test_macro_f1": 0.8626675644803614,
+  "all_stage_exploratory_macro_f1": 0.5751117096535743
+}

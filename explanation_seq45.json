@@ -1,0 +1,71 @@
+{
+  "index": 45,
+  "true_stage": "C2",
+  "predicted_stage": "C2",
+  "confidence": 0.84886234998703,
+  "stage_probabilities": {
+    "Benign": 0.15068256855010986,
+    "Reconnaissance": 4.007512325188145e-05,
+    "Delivery": 0.0004136029747314751,
+    "Exploitation": 1.3060417813903769e-06,
+    "C2": 0.84886234998703,
+    "ActionsOnObjectives": 6.835179533482005e-08
+  },
+  "forecast_error": 0.0003857300034724176,
+  "top_features_gradient_x_input": [
+    {
+      "feature": "Fwd Seg Size Min",
+      "score": 1.9588286876678467
+    },
+    {
+      "feature": "Down/Up Ratio",
+      "score": 1.8200984001159668
+    },
+    {
+      "feature": "Protocol",
+      "score": 1.3121529817581177
+    },
+    {
+      "feature": "Bwd IAT Max",
+      "score": 1.2407710552215576
+    },
+    {
+      "feature": "Dst Port",
+      "score": 1.0565807819366455
+    },
+    {
+      "feature": "Bwd IAT Mean",
+      "score": 0.8132350444793701
+    },
+    {
+      "feature": "Bwd IAT Std",
+      "score": 0.5989956855773926
+    },
+    {
+      "feature": "Fwd PSH Flags",
+      "score": 0.4936334192752838
+    },
+    {
+      "feature": "Active Std",
+      "score": 0.4602223336696625
+    },
+    {
+      "feature": "Fwd Act Data Pkts",
+      "score": 0.4293147921562195
+    }
+  ],
+  "temporal_attention": [
+    0.005325136706233025,
+    0.13080815970897675,
+    0.03473569080233574,
+    0.0059814173728227615,
+    0.07137046754360199,
+    0.007514625322073698,
+    0.0084648746997118,
+    0.011511890217661858,
+    0.017801575362682343,
+    0.1109621673822403,
+    0.15405648946762085,
+    0.4414675235748291
+  ]
+}

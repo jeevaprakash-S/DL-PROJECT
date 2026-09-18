@@ -1,0 +1,21 @@
+                     precision    recall  f1-score   support
+
+             Benign       0.96      0.96      0.96    685356
+     Reconnaissance       0.91      0.96      0.93      3376
+           Delivery       0.00      0.00      0.00         3
+       Exploitation       0.00      0.00      0.00        11
+                 C2       0.73      0.87      0.79     45037
+ActionsOnObjectives       0.93      0.65      0.76     52981
+
+           accuracy                           0.93    786764
+          macro avg       0.59      0.57      0.58    786764
+       weighted avg       0.95      0.93      0.94    786764
+
+Confusion matrix:
+[[658171, 287, 1875, 7705, 14646, 2672], [139, 3232, 0, 4, 0, 1], [2, 0, 0, 1, 0, 0], [10, 0, 0, 0, 0, 1], [5697, 1, 6, 27, 39252, 54], [18249, 48, 20, 28, 136, 34500]]
+
+PRIMARY EVALUATION
+Stages: Benign, Reconnaissance, C2, ActionsOnObjectives
+Primary test macro-F1: 0.8627
+All-stage exploratory macro-F1: 0.5751
+Experimental stages with <100 test windows: {'Delivery': 3, 'Exploitation': 11}

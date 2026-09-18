@@ -1,0 +1,91 @@
+{
+  "index": 0,
+  "true_stage": "Benign",
+  "predicted_stage": "C2",
+  "confidence": 0.543844997882843,
+  "stage_probabilities": {
+    "Benign": 0.4547423720359802,
+    "Reconnaissance": 4.539807378023397e-06,
+    "Delivery": 0.0014043960254639387,
+    "Exploitation": 3.5837836094287923e-06,
+    "C2": 0.543844997882843,
+    "ActionsOnObjectives": 1.391023687347115e-07
+  },
+  "forecast_error": 0.057593122124671936,
+  "top_features_gradient_x_input": [
+    {
+      "feature": "Down/Up Ratio",
+      "score": 0.9083476662635803
+    },
+    {
+      "feature": "Protocol",
+      "score": 0.5482795834541321
+    },
+    {
+      "feature": "Dst Port",
+      "score": 0.5403039455413818
+    },
+    {
+      "feature": "Bwd IAT Std",
+      "score": 0.45885851979255676
+    },
+    {
+      "feature": "Fwd Seg Size Min",
+      "score": 0.4281572699546814
+    },
+    {
+      "feature": "Bwd IAT Max",
+      "score": 0.42564159631729126
+    },
+    {
+      "feature": "Fwd Act Data Pkts",
+      "score": 0.39741766452789307
+    },
+    {
+      "feature": "Bwd IAT Mean",
+      "score": 0.3167685866355896
+    },
+    {
+      "feature": "Fwd PSH Flags",
+      "score": 0.3046131730079651
+    },
+    {
+      "feature": "Active Max",
+      "score": 0.17702406644821167
+    },
+    {
+      "feature": "Active Min",
+      "score": 0.16912786662578583
+    },
+    {
+      "feature": "Active Mean",
+      "score": 0.1607995629310608
+    },
+    {
+      "feature": "Bwd PSH Flags",
+      "score": 0.10697926580905914
+    },
+    {
+      "feature": "Bwd IAT Min",
+      "score": 0.082857146859169
+    },
+    {
+      "feature": "Active Std",
+      "score": 0.0562162846326828
+    }
+  ],
+  "temporal_attention": [
+    0.009402288123965263,
+    0.00448610819876194,
+    0.005285168066620827,
+    0.06992149353027344,
+    0.1548636555671692,
+    0.0826030820608139,
+    0.05944744125008583,
+    0.075030118227005,
+    0.07548417150974274,
+    0.20303204655647278,
+    0.15960317850112915,
+    0.10084131360054016
+  ]
+}

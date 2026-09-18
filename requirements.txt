@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.3
+joblib>=1.3
+torch>=2.2
+matplotlib>=3.8
+# Optional, only for --shap explanations:
+# shap>=0.45
